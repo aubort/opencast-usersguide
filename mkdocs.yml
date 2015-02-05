@@ -1,0 +1,7 @@
+site_name: Opencast - Users Guide
+pages:
+- ['index.md', 'Introduction']
+- ['login.md', 'Log-in']
+- ['events.md', 'Events']
+
+theme: readthedocs
