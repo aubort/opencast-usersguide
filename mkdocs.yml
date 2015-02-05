@@ -1,7 +1,11 @@
 site_name: Opencast - Users Guide
+repo_url: https://bitbucket.org/entwinemedia/opencast-usersguide.git
+
+
 pages:
 - ['index.md', 'Introduction']
 - ['login.md', 'Log-in']
 - ['events.md', 'Events']
 
 theme: readthedocs
+theme_dir: 'theme_override'
