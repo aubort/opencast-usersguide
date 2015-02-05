@@ -1,4 +1,4 @@
-#Log-in
+# Log-in
 In order to log-in to the Matterhorn administrative user interfaces you will need to request a username and password from your system administrator.
 
 Note:  There is no self-registration functionality in the Matterhorn Admin UI.

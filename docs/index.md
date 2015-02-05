@@ -1,4 +1,4 @@
-#Welcome to Opencast
+# Welcome to Opencast
 Opencast is a free, open-source software designed to support the management of audio and video content in educational, corporate and medical settings. Opencast is a set of highly configurable media services that most adopters use to produce recordings, manage existing video, serve designated distribution channels, and provide user interfaces to engage learners with video. Opencast includes the following features:
 
 * Administrative tools for scheduling automated single and multi-stream recordings, manually uploading files, and managing metadata, and processing functions
