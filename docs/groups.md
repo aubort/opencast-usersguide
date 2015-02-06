@@ -1,1 +1,26 @@
-# Groups
+# Overview
+By linking Roles and Users, Groups allow for managing permissions and access to resources and certain parts of the UI. See the [About Roles section](groups.md#about-roles) for more information about Roles in the UI.
+
+
+## How to add Groups
+Groups can be added using the **Add group** button. Roles and users can be selected upon creation of the group.
+
+Note that every group defines a role, and each group member is assigned this role `ROLE_GROUP_<group name>`, which can then be used in Access Policies to grant a certain action to all members of that group.
+
+
+## How to edit Groups
+Groups can be edited using the edit icon (☰). Roles and users can be selected upon creation of the group. Once selected, all aspects of a group can be edited and updated.
+
+## How to delete Groups
+Use the delete icon (⨂) in the Actions column to delete groups.
+
+## About Roles
+Roles allow an administrator to define permissions on a per-user or per-group basis. Here is a list of some of the role and what they are used for:
+
+* `ROLE_ADMIN`: This role overrides any other role and provides full access to the users that possess it.
+
+* `ROLE_UI_*`: Are bound to UI elements and endpoint security. They allow/deny access to certain parts of the UI.
+
+* `ROLE_API_*`: These are similar to the ROLES_UI however they protect the external API of Opencast.
+
+* `ROLE_GROUP_*`: A role that is defined by each group and that is assigned to every member of that group.
