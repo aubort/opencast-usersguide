@@ -40,4 +40,7 @@ From there, download the source of the documentation, go to the repo and use the
 $ mkdocs serve
 ```
 
-Go to the URL that is displayed in the terminal and that's it!
+# Dependencies and Requirements
+
+* Python
+* mkdocs
