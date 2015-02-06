@@ -5,7 +5,7 @@ Opencast is a free, open-source software designed to support the management of a
 
 * Video editing enables users to trim or edit video prior to publishing
 
-* Integration with a variety of commercial and open-source recording devices in the classroom for capture including: Extron, Arduino, 323Link, Ncast, Teltek,
+* Integration with a variety of commercial and open-source recording devices in the classroom for capture. For up-to-date information, please visit the [Commercial Service Provider page](http://opencast.org/matterhorn/vendors) on the Opencast homepage.
 
 * Processing and encoding services that prepare and package the media files with trailers, bumpers, cover slides, and watermarks.
 
