@@ -1,4 +1,4 @@
-# Events
+# Overview
 
 An Event in Opencast refers to a single lecture, training, or meeting that is automatically recorded or uploaded. Events can either stand alone or they can belong to a Series (see also Series section) can be scheduled or created ad-hoc if an institution allows it. You can access the Events page from the **Main Menu > Recordings > Events**.
 

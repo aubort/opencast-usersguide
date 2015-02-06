@@ -1,4 +1,4 @@
-# Series
+# Overview
 
 A Series in Opencast is the equivalent of a course which typically contains multiple [Events](events.md) that occur across a defined period of time. Here is an example of a Series which consists of four (4) events:
 
