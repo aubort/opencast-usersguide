@@ -1,36 +1,79 @@
 # Events
 
-In Opencast, Events refer to a single lecture that is recorded or uploaded. Most of the time they belong to a Series (see also Series section), however they can also be ad-hoc recodrings. You can access the Events page from the Main Menu > Recordings > Events.
-
-## How to Create an Event
-
-An Event can either be a single, standalone event or one of many events that belong to a single Series.
-
-From the main navigation select Events
-Once on the Events page make sure the Events tab is selected  at the top of the page
-
-1. Click the Add Event button
-1. A new Create Event Modal will be displayed
-1. At minimum you must enter a Title for the creation of an Event.
-
-All other fields on the Metadata screen are optional
-Click Next Step
-On the Source tab you will need to select whether the event(s) are being scheduled or uploaded.
-Upload
-Schedule Single Event
-Schedule Multiple Events
-Click Next Step
-On the processing tab you will need to select the workflow you would like this Event to be processed with.
-
-Note: If you don’t see a workflow you recognize, contact your local systems administrator
-
-Click Next Step
-Select the Access Policy you would like to apply to this Event. The choice are either Private or Public
-The final step is to review the Summary page, if you would like to make changes, click the Back button and make changes.
-Click the Create button and you should receive confirmation that the Event was created
+An Event in Opencast refers to a single lecture, training, or meeting that is automatically recorded or uploaded. Events can either stand alone or they can belong to a Series (see also Series section) can be scheduled or created ad-hoc if an institution allows it. You can access the Events page from the **Main Menu > Recordings > Events**.
 
 
-## [pascal] Editing Events (TODO)
+## How to create an Event
+
+An Event can either be a single, standalone Event or one of many Events that belong to a single Series.  
+
+1. Click the Add Event button and a Create New Event modal will open
+1. On the Source tab you will need to select whether the event(s) are being scheduled or uploaded.
+1. On the processing tab, you will need to select the workflow you would like this Event to be processed with. If you don’t see a workflow you recognize, contact your local systems administrator
+1. Select the Access Policy you would like to apply to this Event.
+1. On the Summary tab, review the Event details. To make changes click the Back button.
+1. Click the Create button and you should receive confirmation that the Event was created
+
+
+
+
+## Events Progress Status
+
+The Progress column shows in which state the Task running on the Event is. These are the possible values and their meaning:
+
+* **INSTANTIATED**: The task on the event is being prepared
+* **RUNNING**: The task is currently running
+* **STOPPED**: The task has stopped. Note. Stopping a task can only be achieved using the REST endpoint
+* **PAUSED**: The task is paused and requires manual action (such as cutting for example) to proceed further
+* **SUCCEEDED**: The task has been run successfully
+* **FAILED**: The task has failed. See the Event’s details for more information
+* **FAILING**: The current task is about to fail and processing artifacts are being cleaned up
+
+
+## How to edit Events
 
 Use the edit icon (☰) on the Actions column to open the Event’s details and start editing.
-Metadata: To edit metadata fields click on the edit icon at the right of the field and start editing. Pressing enter will automatically saved the data and a tick appears to confirm that the value has been saved
+
+Metadata and Access Policies are being saved automatically when the cursor leaves the field or an option is selected.
+
+> Without further action, the information changed in the Event’s details will be updated in the asset management layer of Opencast but **not appear in the various publications channels until the Event has been re-published**. See the [Processing section](processing.md) on how to start a task on an Event.
+
+
+## How to view Event’s attributes
+Use the edit icon (☰) on the Actions column to open the Event’s details.
+
+* **Media**: Lists all video tracks that are available for the Event
+* **Attachments**: Lists all attachments that are available for the Event
+* **Workflows**: Lists all Tasks/Workflows that have been applied to the Event
+
+## How to delete Events
+From the Event page you have the capability to delete a single or multiple events.
+
+Use the (x) icon in the actions column of each row to delete individual events. To delete Events in bulk, **select the items to be deleted** and then **Actions > Delete**.
+
+> When events are deleted from the asset management layer of Opencast, their link to various publication channels will be lost, i. e. there will no longer be an easy way to un-publish them. It is therefore recommended to first un-publish the events in question. See the [Processing section](processing.md) on how to start a task on an Event.
+
+
+## Working with comments on Events
+Leaving comments are a great way to flag an event - in case of bad audio for example - for further review by yourself or your peers. The comments allows you create, reply and resolve comments on a per event basis. To access comments go to Main Menu > Recordings > Events use the edit icon (☰) to access comments for an individual event.
+
+Comments indicators are displayed in the Actions column as follow:
+
+* ![](media/icons/open_comment_16.png "Logo Title Text 1") At least one unresolved comment on the Event
+* ![](media/icons/resolved_comment_16.png "Logo Title Text 1") All comments on the Event have been resolved
+* No icon means that no comment has ever been added to the Event
+
+> Use the [Filters](searchandfilter.md) to find flagged events.
+
+
+### How to write comments
+Use the edit icon (☰) on the Actions column to open the Event’s details and go to the **Comments tab**. Type a comment in the text field and press Submit.
+
+### How to reply to comments
+To reply to a comment, click on **Reply** in the initial comment, type your reply and press Reply. You can press Dismiss at any time to cancel.
+
+### How to resolve comments
+To resolve a comment, click on **Reply** in the initial comment, type your reply, **check the Resolve checkbox** and press Reply. The initial comment will be marked as resolved.
+
+### How to delete comments
+To delete a comment or a reply to a comment, click on the **Delete** in the comment section.
