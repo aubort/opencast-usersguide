@@ -32,5 +32,4 @@ pages:
 - ['processing.md', 'Processing']
 - ['searchandfilter.md', 'Search & Filter']
 - ['configure.md', 'Configure the UI']
-- ['i18n.md', 'i18n']
 - ['glossary.md', 'Glossary']
