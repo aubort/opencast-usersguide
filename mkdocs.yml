@@ -31,7 +31,6 @@ pages:
 - ['themes.md', 'Themes']
 - ['processing.md', 'Processing']
 - ['searchandfilter.md', 'Search & Filter']
-- ['videoeditor.md', 'Editing video content']
 - ['configure.md', 'Configure the UI']
 - ['i18n.md', 'i18n']
 - ['glossary.md', 'Glossary']
