@@ -9,6 +9,7 @@ The source documentation is hosted on this git repository: https://bitbucket.org
 
 ### Branches
 There are 3 branches that are used for the documentation:
+
 * **master**: This is used for production documentation that is published
 * **staging**: This is used for staging the documentation before releasing it
 * **draft**: This is the working copy of the documentation
