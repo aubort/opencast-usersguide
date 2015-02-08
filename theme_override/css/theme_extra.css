@@ -31,17 +31,41 @@
  */
 code {
     white-space: pre;
+    padding: 2px;
+    font-family: "Source Code Pro",Monaco,Menlo,Consolas,"Courier New",monospace;
+    color: #8d0687;
+    font-size: 16px !important;
+    border:0px !important;
 }
 
-.wy-body-for-nav, h1, h2, h3, h4{
-    font-family:Helvetica,Arial,sans-serif !important;
+
+h1, h2, h3, h4, h5, h6, legend {
+    font-family: "RobotoDraft",Helvetica,Arial,sans-serif !important;
+    font-weight: 400;
+    letter-spacing: -0.01em
 }
 
-blockquote {
+.wy-body-for-nav{
+    font-family: "RobotoDraft",Helvetica,Arial,sans-serif !important;
+}
+
+.wy-nav-content a {
+    color: #3367d6 !important;
+}
+p, ol, li {
+    font-weight: 300;
+    color: #444;
+    font-size: 16px !important;
+}
+
+.rst-content blockquote {
+    border-left-color: #92BEDA;
+    border-left-width: 4px;
+    border-left-style: solid;
+    padding: 4px;
+    background-color: #f8f8f8;
+}
+
+.rst-content blockquote p {
     margin:0px;
-    border-left: 4px solid #e4e5e8;
-    background-color: #f4f1f1;
-    padding: 0px 10px;
-    color:gray;
-
 }
