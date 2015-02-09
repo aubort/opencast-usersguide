@@ -59,8 +59,8 @@ Leaving comments are a great way to flag an event - in case of bad audio for exa
 
 Comments indicators are displayed in the Actions column as follow:
 
-* ![](media/icons/open_comment_16.png "Logo Title Text 1") At least one unresolved comment on the Event
-* ![](media/icons/resolved_comment_16.png "Logo Title Text 1") All comments on the Event have been resolved
+* ![](media/icons/open_comment_16.png "Open comments on events") At least one unresolved comment on the Event
+* ![](media/icons/resolved_comment_16.png "All comments resolved") All comments on the Event have been resolved
 * No icon means that no comment has ever been added to the Event
 
 > Use the [Filters](searchandfilter.md) to find flagged events.
