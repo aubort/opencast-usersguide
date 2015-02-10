@@ -6,6 +6,7 @@
  */
 .wy-menu-vertical span {
     line-height: 18px;
+    font-family: "RobotoDraft",Helvetica,Arial,sans-serif !important;
     padding: 0.4045em 0.809em;
     display: block;
     position: relative;
@@ -42,7 +43,7 @@ code {
 h1, h2, h3, h4, h5, h6, legend {
     font-family: "RobotoDraft",Helvetica,Arial,sans-serif !important;
     font-weight: 400;
-    letter-spacing: -0.01em
+    letter-spacing: -0.03em
 }
 
 .wy-body-for-nav{
@@ -62,7 +63,8 @@ p, ol, li {
     border-left-color: #92BEDA;
     border-left-width: 4px;
     border-left-style: solid;
-    padding: 4px;
+    /*padding: 4px;*/
+    padding: 4px 4px 4px 16px;
     background-color: #f8f8f8;
 }
 
