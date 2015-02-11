@@ -33,4 +33,4 @@ pages:
 - ['searchandfilter.md', 'Search & Filter']
 - ['configure.md', 'Configure the UI']
 - ['glossary.md', 'Glossary']
-- ['i18n.md', 'i18n']
+- ['i18n.md', 'Internationalization']
