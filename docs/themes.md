@@ -4,7 +4,7 @@ Themes allow for branding the video content.  Themes are applied to Series and a
 
 * **Bumper** - An uploaded video clip that is prepended to the actual video
 * **Trailer** - An uploaded video clip that is appended to the actual video
-* **Watermark** - An uploaded image that will be displayed in transparency on the full length of the video
+
 
 You can access the Themes section from the **Main Menu > Configuration > Themes**.
 
