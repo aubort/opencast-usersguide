@@ -1,3 +1,9 @@
+<!-- Hamburger Icon -->
+[icon_hamburger]:data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAYAAAAGRPQsAAAARklEQVQ4y2Ow6L3SCsQ/gfg/BRikv5WBCgbB8GcGKrnsF9hlIwSQEGY/CYYLiYH/mVouG1ExRqUwIxy7FGalz9RyGUbsAgCNXmeVduHT9gAAAABJRU5ErkJggg== "Edit Icon"
+
+<!-- Delete icon -->
+[icon_delete]:data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABEklEQVR42q2Uuw4BURRFVYpLoSCYL2PQTTU0vsBXeY14TIyan/Ao6ChQcE6yJTs37phCsTLZ++x7cp+Te9TrNkWhL6yEi/DCdwW/aI+xG/jCUQe6QN13NRlQcCM0hRpqNegNZQZ2Ex+Fp9CF56KrOeTb6n324AQzUDMDAfJnoaRGD0ZCobUwFgx0QYiELWUSjOupiCCaFBjCWwoVIYaeUKYBL1Kxh6hSwAhz+DdqaCjjwT+ouEPkGMzgqjV8y1Y9j9pdxeHLTAqfJVCjRdpMIogGBaa0hLI2gB592ZOZ63R2aGSgDTY7dpzOf+6J0qIbG/5oENKN7aS9nQRr9nAKHnTiejtMK+MrbvO4tP9JnPV/8gansczJeXp0AgAAAABJRU5ErkJggg== "Delete icon"
+
 # Overview
 
 A Series in Opencast is the equivalent of a course which typically contains multiple [Events](events.md) that occur across a defined period of time. Here is an example of a Series which consists of four (4) events:
@@ -23,10 +29,10 @@ A Series contains multiple events that occur across a defined period of time.
 > Be cautious when selecting the Access Policy of a Series. Using a public Access Policy will make the Events available to everyone.
 
 ## How to edit a Series
-Use the edit icon (☰) on the Actions column to edit a Series.
+Use the edit icon ( ![icon_hamburger][] ) on the Actions column to edit a Series.
 Metadata, Access Policies and Themes are being saved automatically when the cursor leaves the field or an option is selected.
 
 ## How to delete a Series
-Use the (x) icon in the actions column of each row to delete individual series. To delete series in bulk, select the items to be deleted and then from the Actions menu, select Delete Series. Confirm the action in the modal.
+Use the ( ![icon_delete][] ) icon in the actions column of each row to delete individual series. To delete series in bulk, select the items to be deleted and then from the Actions menu, select Delete Series. Confirm the action in the modal.
 
 Note: Deleting a series does **not** delete the Events that are part of it. In order to delete all events as well, check the “How to delete events TODO” section and remove them first.
