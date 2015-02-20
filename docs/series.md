@@ -35,4 +35,4 @@ Metadata, Access Policies and Themes are being saved automatically when the curs
 ## How to delete a Series
 Use the ( ![icon_delete][] ) icon in the actions column of each row to delete individual series. To delete series in bulk, select the items to be deleted and then from the Actions menu, select Delete Series. Confirm the action in the modal.
 
-Note: Deleting a series does **not** delete the Events that are part of it. In order to delete all events as well, check the “How to delete events TODO” section and remove them first.
+>Note: Deleting a series does **not** delete the Events that are part of it. In order to delete all events as well, refer to the [How to delete events](events.md#how-to-delete-events) section.
