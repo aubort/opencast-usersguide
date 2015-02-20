@@ -1,3 +1,7 @@
+[1]:data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA3UlEQVR4nKXTvUoDQRTF8V/GYO3HA0heIAbyBpaWgpWFjRCwsLIWbAVjkTZtirSCdVLYS4JC6hSKWNqJoMXuxUUQd7MHBqa4/zPnwplGt9NRR6lwb+IUM3z9cR5wgrWAGnmCHdyiXfLhGfbxnLCBSQUYdnGP7YQLtCrAoRYuEw5XgEMHCZs1DLYSHmsYPCXc1DDoJ4wxWAG+xiiKdCYrURm9oYdzsvaFFr8GP2Tt+8Qr5rjLE7/HUBis46oAT3GM5X9xYoUhujl4hL0yMD9/oS3b7aUMVFSsMK8Khr4BytkpdpaZ1jIAAAAASUVORK5CYII=
+
+[2]:data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABI0lEQVR4nKXSvSuFYRgG8N95nVisMvgqoRh0chhkYmUxWUkmf8DJQKEkpUS+MljZlc2mlFK+TgYWi04MYlM+hvd9O5J4D1fdPffz1HXd9/3cVyqbyfgPgi/3Viwijze8R/GKCyyg5TuBCmziFA2YQxMqo2jGPBpxjlWUQyqbyVRgH1UYiqr/hDbsoID+NCZQjw48JRg7jx6cIBdgGJMJyTGeMYWRANUJ2v4OV6gJoqTzDwJduAmwjGnUlkCuxQxWAmwLt3CI3gTkARxjDxvp6HEM4zhAN46EW3lBmfCfujGIOsxiCdJFYXncR+caRhVdWBAaaB27eIxJsUC50KYPuMS10H23v80TW3kL2ahSDn1JyIRWhvao/bskpM+IRzgrlRjjA6hxPa3f8mSnAAAAAElFTkSuQmCC
+
 # Overview
 
 An Event in Opencast refers to a single lecture, training, or meeting that is automatically recorded or uploaded. Events can either stand alone or they can belong to a Series (see also Series section) can be scheduled or created ad-hoc if an institution allows it. You can access the Events page from the **Main Menu > Recordings > Events**.
@@ -59,8 +63,8 @@ Leaving comments are a great way to flag an event - in case of bad audio for exa
 
 Comments indicators are displayed in the Actions column as follow:
 
-* ![](media/icons/open_comment_16.png "Open comments on events") At least one unresolved comment on the Event
-* ![](media/icons/resolved_comment_16.png "All comments resolved") All comments on the Event have been resolved
+* [![Open comments icon][1]][1] At least one unresolved comment on the Event
+* [![Resolved comments icon][2]][2] All comments on the Event have been resolved
 * No icon means that no comment has ever been added to the Event
 
 > Use the [Filters](searchandfilter.md) to find flagged events.
