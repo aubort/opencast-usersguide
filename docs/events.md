@@ -14,7 +14,7 @@
 
 # Overview
 
-An Event in Opencast refers to a single lecture, training, or meeting that is automatically recorded or uploaded. Events can either stand alone or they can belong to a Series (see also Series section) can be scheduled or created ad-hoc if an institution allows it. You can access the Events page from the **Main Menu > Recordings > Events**.
+An Event in Opencast refers to a single lecture, training, or meeting that is automatically recorded or uploaded. Events can either stand alone or they can belong to [a Series](series.md) can be scheduled or created ad-hoc if an institution allows it. You can access the Events page from the **Main Menu > Recordings > Events**.
 
 
 ## How to create an Event
@@ -29,7 +29,7 @@ An Event can either be a single, standalone Event or one of many Events that bel
 1. Click the Create button and you should receive confirmation that the Event was created
 
 
-
+See also the [Access Policies section](accesspolicies.md#apply-access-policies-to-events) to find out more about applying Access Policies to Events
 
 ## Events Progress Status
 

@@ -5,29 +5,12 @@ This guide is the official Opencast user's manual for the open-source video capt
 # Setup
 
 ### Git Repository
-The source documentation is hosted on this git repository: https://bitbucket.org/entwinemedia/opencast-usersguide.git
-
-### Branches
-There are 3 branches that are used for the documentation:
-
-* **master**: This is used for production documentation that is published
-* **draft**: This is the working copy of the documentation
-
-### Hosting
-
-The documentation is being built and published using [ReadTheDocs](http://readthedocs.org/). The Entwine account is available in passpack.
-
-Each branch is published on ReadTheDocs:
-
-* **master**: http://opencast-users-guide.readthedocs.org/
-* **draft**: http://opencast-users-guide.readthedocs.org/en/draft/
-
-> Note: The branches are currently published as "protected" which means they are publicly available but not listed on the Builds list on ReadTheDocs
+The source documentation is hosted on this Git repository: https://bitbucket.org/opencast-community/matterhorn
 
 ### Building Locally
 The documentation is written in standard markdown. The tool that is used to build the documentation is [mkdocs.org](http://www.mkdocs.org/)
 
-In order to build the documentation locally, you will need to [install mkdocs](http://www.mkdocs.org/#installation). Check out the documentation or use the following command
+In order to build the documentation locally, you will need to [install MkDocs](http://www.mkdocs.org/#installation). Check out the documentation or use the following command
 
 ```
 $ pip install mkdocs

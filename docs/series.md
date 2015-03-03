@@ -25,8 +25,7 @@ A Series contains multiple events that occur across a defined period of time.
 1. Select the Access Policy you would like to apply to all Events in this Series.
 1. Click the create button and you should receive confirmation that the Series was created
 
-
-> Be cautious when selecting the Access Policy of a Series. Using a public Access Policy will make the Events available to everyone.
+See also the [Access Policies section](accesspolicies.md#apply-access-policies-to-series) to find out more about applying Access Policies to Series
 
 ## How to edit a Series
 Use the edit icon ( ![icon_hamburger][] ) on the Actions column to edit a Series.
