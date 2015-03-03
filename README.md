@@ -11,7 +11,6 @@ The source documentation is hosted on this git repository: https://bitbucket.org
 There are 3 branches that are used for the documentation:
 
 * **master**: This is used for production documentation that is published
-* **staging**: This is used for staging the documentation before releasing it
 * **draft**: This is the working copy of the documentation
 
 ### Hosting
@@ -21,7 +20,6 @@ The documentation is being built and published using [ReadTheDocs](http://readth
 Each branch is published on ReadTheDocs:
 
 * **master**: http://opencast-users-guide.readthedocs.org/
-* **staging**: http://opencast-users-guide.readthedocs.org/en/staging/
 * **draft**: http://opencast-users-guide.readthedocs.org/en/draft/
 
 > Note: The branches are currently published as "protected" which means they are publicly available but not listed on the Builds list on ReadTheDocs

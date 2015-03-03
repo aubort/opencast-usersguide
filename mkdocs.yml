@@ -30,6 +30,7 @@ pages:
 - ['accesspolicies.md', 'Access Policies']
 - ['themes.md', 'Themes']
 - ['processing.md', 'Processing']
+- ['videoeditor.md', 'Video Editor']
 - ['searchandfilter.md', 'Search & Filter']
 - ['configure.md', 'Configure the UI']
 - ['glossary.md', 'Glossary']

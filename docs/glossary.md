@@ -1,3 +1,8 @@
+<!-- Hamburger Icon -->
+[icon_hamburger]:data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAYAAAAGRPQsAAAARklEQVQ4y2Ow6L3SCsQ/gfg/BRikv5WBCgbB8GcGKrnsF9hlIwSQEGY/CYYLiYH/mVouG1ExRqUwIxy7FGalz9RyGUbsAgCNXmeVduHT9gAAAABJRU5ErkJggg== "Edit Icon"
+
+
+
 ## Recordings
 A general term used to describe activities that occur within an Opencast system including Series and Events.
 
@@ -31,7 +36,7 @@ The location where a video has been published, for example, you may publish your
 Utilized by Opencast as descriptive data to describe the different objects (series, events, recordings).
 
 ## Modal Window
-A modal window is a graphical element used in Opencast that displays over the applications main window. The modal window is considered a child window that requires users to interact with it before they can return to the main Opencast application. An example of a model window can be seen by clicking the edit icon (☰) on the Actions column within the Event table view.
+A modal window is a graphical element used in Opencast that displays over the applications main window. The modal window is considered a child window that requires users to interact with it before they can return to the main Opencast application. An example of a model window can be seen by clicking the edit icon ( ![icon_hamburger][] ) on the Actions column within the Event table view.
 
 ## Capture Agent (CA)
 A software or hardware device to record speakers, meetings, lectures, and other types of events. It typically captures audio and video (VGA/DVI), and, depending on software and hardware support, various video sources.
