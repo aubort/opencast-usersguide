@@ -26,3 +26,8 @@ $ mkdocs serve
 
 * Python
 * mkdocs
+
+# Editing on dillinger.io
+In order to edit from Dillinger.io, you will need to connect your github account to dillinger. See the left nav to do that. Once you have connected your github account, use Import From link on the top nav to import the file you want to edit (you can't import all files at the same time, but might be a good feature request). 
+
+Once you are done editing your file, just
