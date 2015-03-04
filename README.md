@@ -33,3 +33,7 @@ In order to edit from Dillinger.io, you will need to connect your github account
 Once you are done editing your file, just use the "Save to" link on the top nav and it will commit the changes to the github repo.
 
 That's it!
+
+Now go to the github repo and checkout the commit history. You will see that all everytime a "Save to Github" is done, a commit is done on github - that's the magic!
+
+PS: We may also check out other editors - like stackedit - which could allow to see all the files at once. 
