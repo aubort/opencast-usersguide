@@ -37,3 +37,6 @@ That's it!
 Now go to the github repo and checkout the commit history. You will see that all everytime a "Save to Github" is done, a commit is done on github - that's the magic!
 
 PS: We may also check out other editors - like stackedit - which could allow to see all the files at once. 
+
+# Editing on Github
+Of course there is always the alternative way of editing on Github directly (as I do now).
