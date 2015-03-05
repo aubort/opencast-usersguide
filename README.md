@@ -1,6 +1,6 @@
 # Overview
 
-This guide is the official Opencast user's manual for the open-source video capture system.
+This guide is the official Opencast user's manual for the open source video capture system.
 
 # Setup
 
